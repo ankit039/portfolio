@@ -1,0 +1,100 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="asset/css/style.css">
+<link rel="stylesheet" href="asset/css/font.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+</head>
+<body>
+ <div class="row">
+  <div class="col-md-4">
+  </div>
+  <div class="col-md-8">
+
+  <div class="navbar">
+    <a href="#section5">Contact</a>
+    <a href="#section4">Project</a> 
+    <a href="#section3">Skills</a>
+    <a href="#section2">About</a> 
+    <b class="right" align="center">ANKIT RAJ</b> 
+</div>
+ 
+<div id="section1">
+  <br><br><br><br><br><br><br>
+  <h1>Hey! It's Nice To See <br>You On Here..</h1>
+  <hr>
+  <br>
+  <h2>I would like to explore the world of development that is Web Development as a Full Stack Developer<br><br> as well as Android Development mostly in Unity 2D/3D.<br><br>I would like to help, if i can. Find more about me below.</h2>
+  <br><br><br><br><br><br><br>
+  <a class="center" href="#section2"><button><strong>Find More</strong></button></a>
+</div>
+<div id="section2">
+   <br><br>
+   <h3>Know more about me</h3>
+   <hr>
+   <h4>Hello, I am Ankit Raj a second year student studing in Jaypee University of Engineering and Technology,Guna.<br> And serving as Co-Ordinator in Mozilla Phoenix Club,Juet.<br> And Campus Ambassador in CODING BLOCKS.<br> As i found development more intresting hence<br> i like to do same most of the time. </h4>
+   <br><br>
+  <a href="#section3"><buttonx><strong>&nbsp;&nbsp;&nbsp;&nbsp;Skills!<strong></buttonx></a>
+</div>
+<div id="section3">
+  <br><br>
+  <h1>Skills!</h1>
+  <hr>
+  <br><br>
+  <img class="left300" src="asset/image/html.svg" height="120" width="120">
+  <img class="left500" src="asset/image/css.svg" height="120" width="120">
+  <img class="left700" src="asset/image/php.svg" height="120" width="120">
+  <img class="left900" src="asset/image/mysql.svg" height="120" width="120">
+  <img class="left1100" src="asset/image/github.svg" height="120" width="120">
+  <br><br><br><br><br><br><br><br><br><br>
+  <img class="left300" src="asset/image/unity.svg" height="120" width="120">
+  <img class="left500" src="asset/image/visualstudio.svg" height="120" width="120">
+  <a href="#section3"></a>
+</div>
+<div id="section4">
+  <br>
+  <h1>Projects</h1>
+  <hr>
+  <br><br>
+  <a href="http://agencydeveloper.000webhostapp.com/"><img src="asset/image/tornado.jpg" height="300" width="500"></a>
+  <a href="https://oedr.000webhostapp.com/"><img src="asset/image/oedr.jpg" height="300" width="500"></a>
+  <a href="http://warfortrezor.000webhostapp.com/"><img src="asset/image/warfortrezor.jpg" height="300" width="510"></a>
+  <a href="http://nsshabbo.000webhostapp.com/"><img src="asset/image/nsshabbo.jpg" height="300" width="500"></a>
+  <a href="#section4"></a>
+</div>
+<div id="section5">
+  <br>
+  <h1>Contact</h1>
+  <hr>
+  <br><br>
+  <img class="center" src="asset/image/ankit.jpg" height="250" width="250" style="border-radius: 60%;">
+  <a href="#section5"></a>
+  <br>
+  <img class="left500" src="asset/image/phone.jpg">
+  <img class="left900" src="asset/image/mail.jpg">
+  <br><br><br><br><br>
+  <h3 class="left450" style="color: #10b015">+91-8579961909</h3>
+  <a href="mailto:ryder.raj.ankit@gmail.com"><h3 class="left800" style="color: #1694dc">ryder.raj.ankit@gmail.com</h3>
+</div>
+
+</div>
+</div>
+</body>
+</html>
