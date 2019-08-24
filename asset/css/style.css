@@ -94,6 +94,10 @@ body     {
   position: absolute;
   left: 1100px;
 }
+.right0 {
+  position: absolute;
+  right: 0px;
+}
 .right {
   display: block;
   margin-right: 100px;
