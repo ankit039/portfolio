@@ -116,6 +116,7 @@ buttonw {
   padding: 10px 10px;
   margin: 10px 0;
   border: none;
+  text-align: center;
   cursor: pointer;
   width: 8%;
   border-radius: 25px;
@@ -131,6 +132,7 @@ buttonx {
   padding: 10px 10px;
   margin: 10px 0;
   border: none;
+  text-align: center;
   cursor: pointer;
   width: 8%;
   border-radius: 25px;
