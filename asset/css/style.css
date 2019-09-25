@@ -118,7 +118,7 @@ buttonw {
   border: none;
   text-align: center;
   cursor: pointer;
-  width: auto;
+  width: 30px;
   border-radius: 25px;
   display: block;
   margin-left: auto;
@@ -134,7 +134,7 @@ buttonx {
   border: none;
   text-align: center;
   cursor: pointer;
-  width: auto;
+  width: 30px;
   border-radius: 25px;
   display: block;
   margin-left: auto;
